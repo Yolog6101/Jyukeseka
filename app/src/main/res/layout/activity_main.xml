@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Main">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="572dp"
+        android:layout_height="860dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509"
+        app:srcCompat="@drawable/projectlearningbackground1" />
+
+    <Button
+        android:id="@+id/top_button3"
+        android:layout_width="221dp"
+        android:layout_height="83dp"
+        android:background="#E8C993"
+        android:fontFamily="sans-serif-thin"
+        android:shape="oval"
+        android:text="健康記録"
+        android:textAlignment="center"
+        android:textColor="#707070"
+        android:textSize="24sp"
+        app:backgroundTint="#E8C993"
+        app:layout_constraintBottom_toTopOf="@+id/top_button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" />
+
+    <Button
+        android:id="@+id/top_button2"
+        android:layout_width="221dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="64dp"
+        android:background="#D3ACF4"
+        android:fontFamily="sans-serif-thin"
+        android:text="勉強記録"
+        android:textAlignment="center"
+        android:textColor="#707070"
+        android:textSize="24sp"
+        app:backgroundTint="#D3ACF4"
+        app:layout_constraintBottom_toTopOf="@+id/top_button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/top_button4"
+        android:layout_width="221dp"
+        android:layout_height="83dp"
+        android:background="#DCDCDC"
+        android:fontFamily="sans-serif-thin"
+        android:text="設定"
+        android:textAlignment="center"
+        android:textColor="#707070"
+        android:textSize="24sp"
+        app:backgroundTint="#DCDCDC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817" />
+
+    <Button
+        android:id="@+id/top_button1"
+        android:layout_width="221dp"
+        android:layout_height="83dp"
+        android:background="#D1DA7D"
+        android:fontFamily="sans-serif-thin"
+        android:text="目標"
+        android:textAlignment="center"
+        android:textColor="#707070"
+        android:textSize="24sp"
+        app:backgroundTint="#D1DA7D"
+        app:layout_constraintBottom_toTopOf="@+id/top_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

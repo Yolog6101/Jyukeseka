@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TopHealth">
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="572dp"
+        android:layout_height="860dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/projectlearningbackground4" />
+
+    <Button
+        android:id="@+id/thm_button3"
+        android:layout_width="87dp"
+        android:layout_height="50dp"
+        android:text="←"
+        android:textColor="#707070"
+        android:textSize="24sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/thm_button2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-thin"
+        android:scaleX="1"
+        android:text="グラフを表示"
+        android:textColor="#707070"
+        android:textSize="24sp"
+        app:backgroundTint="#CBABFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/thm_button1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/thm_button1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-thin"
+        android:scaleX="1"
+        android:text="データを入力"
+        android:textColor="#707070"
+        android:textSize="24sp"
+        app:backgroundTint="#FFEBAE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

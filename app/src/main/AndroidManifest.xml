@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sampleapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sampleapp">
+        <activity android:name=".EnterPassword"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Activity_Main"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Enter_Setting"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".kiyaku_setting"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".policy_setting"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Top_Mokuhyou"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Top_StudyMemo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ChoiceSubject_StudyMemo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".timer_studymemo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Enter_Mokuhyou"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ShareStudymemo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Graph_StudyMemo"
+            android:screenOrientation="unspecified">
+        </activity>
+        <activity android:name=".EnterScore_StudyMemo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Top_Setting"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".TopHealth"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".EnterHealth"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".GraphHealth"
+            android:screenOrientation="unspecified">
+        </activity>
+        <activity android:name=".ShareHealth"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ScoreCheck_StudyMemo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ResetPassword"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+
+
+    </application>
+
+</manifest>

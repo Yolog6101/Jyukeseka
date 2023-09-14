@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kiyaku_setting">
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="572dp"
+        android:layout_height="860dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/projectlearningbackground5" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="435dp"
+        android:layout_margin="16dp"
+        android:isScrollContainer="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/polisynaiyou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="この利用規約はお客様が当方の本サービスをご利用いただくにあたり取り扱いについて定めたものとなっております。\n第1条1.本規約はお客様と当方間のサービス利用に関わる一切の関係に適用されます。\n第2条\n2.お客様は自己責任において本サービスのパスワードを適切に管理するものとします。また、いかなる場合でも第三者との共用はできません。これによる損害は当方に過失がある場合を除いて、当方は一切責任を負わないものとします。\n第3条\n本サービスはSNSへの共有機能がございます。SNSで起きたいかなる損害において、当方は一切の責任を負わないものとします。"
+                android:textColor="#505050"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="401dp"
+        android:layout_height="91dp"
+        android:gravity="center_horizontal"
+        android:text="利用規約"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <Button
+        android:id="@+id/button_totopsetting"
+        android:layout_width="87dp"
+        android:layout_height="50dp"
+        android:text="←"
+        android:textColor="#707070"
+        android:textSize="24sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

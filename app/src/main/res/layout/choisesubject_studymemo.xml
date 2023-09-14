@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="572dp"
+        android:layout_height="860dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/projectlearningbackground3" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="日付"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.835" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="450dp"
+        android:layout_margin="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/JAN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="現代文"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#FBC0E5" />
+
+            <Button
+                android:id="@+id/OLD"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="古文"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#FBC0E5" />
+
+            <Button
+                android:id="@+id/CHI"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="漢文"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#FBC0E5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ENG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:text="英語"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#DCACE4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/MAT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:text="数学"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#A2CEE3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/CHE"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="化学"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#E1EDA1" />
+
+            <Button
+                android:id="@+id/PHIS"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="物理"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#E1EDA1" />
+
+            <Button
+                android:id="@+id/BIO"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="生物"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#E1EDA1" />
+
+            <Button
+                android:id="@+id/GRO"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="地学"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#E1EDA1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/JANH"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="日本史"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#FDEA8C" />
+
+            <Button
+                android:id="@+id/WORH"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="世界史"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#FDEA8C" />
+
+            <Button
+                android:id="@+id/WOR"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="地理"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#FDEA8C" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ECO"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="政治経済"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#F3C076" />
+
+            <Button
+                android:id="@+id/PHI"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="倫理"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#F3C076" />
+
+            <Button
+                android:id="@+id/OTH"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="その他"
+                android:textColor="#707070"
+                android:textSize="19sp"
+                app:backgroundTint="#FFFFFF" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
