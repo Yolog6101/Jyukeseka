@@ -43,23 +43,23 @@
 
 - 勉強時間を記録するタイマー機能
 
-<img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/327049ad-dc69-4d56-904d-e40d40949338" width="300px">
+    <img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/327049ad-dc69-4d56-904d-e40d40949338" width="300px">
 
 - 模試の成績の記録機能
 
-<img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/03457c6a-d003-42f7-9f66-9240ca9ff0c2" width="300px">
+    <img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/03457c6a-d003-42f7-9f66-9240ca9ff0c2" width="300px">
 
 - 健康記録のグラフ化機能
 
-<img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/64ecb9df-0dc6-43f6-8c85-6f4a1806abc6" width="300px">
+    <img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/64ecb9df-0dc6-43f6-8c85-6f4a1806abc6" width="300px">
 
 - SNS等への共有機能
 
-<img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/775d7961-c8c2-48f0-beea-402fe75789de" width="300px">
+    <img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/775d7961-c8c2-48f0-beea-402fe75789de" width="300px">
 
 - ポップアップ機能
 
-<img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/279090ec-5e96-4f09-947e-986baa1c5f88" width="300px">
+    <img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/279090ec-5e96-4f09-947e-986baa1c5f88" width="300px">
 
 ## アピールポイント
 　このアプリケーションでは勉強時間や模試の記録のほかに、受験生がおろそかにしがちな睡眠や運動などを記録して生活管理も行うことができるようにしています。また、各教科では永続的な目標だけでなく、その日の目標を別に設けることを可能にすることで、
