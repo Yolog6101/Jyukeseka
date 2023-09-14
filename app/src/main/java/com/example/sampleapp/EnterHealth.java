@@ -97,7 +97,6 @@ public class EnterHealth extends AppCompatActivity implements View.OnClickListen
 
     // 内容を共有
     private void gotoTweetHealthScreen(){
-        //メイン画面に戻りたい
         Intent intent1 = new Intent(getApplication(), ShareHealth.class);
         startActivity(intent1);
     }
