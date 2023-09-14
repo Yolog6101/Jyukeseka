@@ -31,7 +31,7 @@
 ## スクリーンショット
 - 本人認証機能
     - 初回起動時
-    ![初ログイン](https://github.com/Yolog6101/Jyukeseka/assets/72485319/743041de-b1fb-4cc2-ae45-6520572b3916)
+    <img src="https://github.com/Yolog6101/Jyukeseka/assets/72485319/743041de-b1fb-4cc2-ae45-6520572b3916" width="300px">
 
     - 2回目以降
     ![2回目以降ログイン](https://github.com/Yolog6101/Jyukeseka/assets/72485319/229fcdf7-f15c-493d-b9a5-8989a71a0ac9)
