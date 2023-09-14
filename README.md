@@ -31,29 +31,28 @@
 ## スクリーンショット
 - 本人認証機能
     - 初回起動時
-    ![初ログイン](https://github.com/Yolog6101/Jyukeseka/assets/72485319/c7651c9e-85a6-4171-90f8-e216e58a5d51)
+    ![初ログイン](https://github.com/Yolog6101/Jyukeseka/assets/72485319/743041de-b1fb-4cc2-ae45-6520572b3916)
 
     - 2回目以降
-    ![2回目以降ログイン](https://github.com/Yolog6101/Jyukeseka/assets/72485319/8d281112-3fea-4bde-935a-a3e96217ac71)
-
+    ![2回目以降ログイン](https://github.com/Yolog6101/Jyukeseka/assets/72485319/229fcdf7-f15c-493d-b9a5-8989a71a0ac9)
 
 - 目標設定機能
-![目標設定](https://github.com/Yolog6101/Jyukeseka/assets/72485319/13548078-0ed3-4991-987a-714e5186b13b)
+![目標設定](https://github.com/Yolog6101/Jyukeseka/assets/72485319/28315058-1312-43b3-8d35-7e83fc225349)
 
 - 勉強時間を記録するタイマー機能
-![タイマー](https://github.com/Yolog6101/Jyukeseka/assets/72485319/b223cd7b-e81e-441d-b610-afa5a7fdccbf)
+![タイマー](https://github.com/Yolog6101/Jyukeseka/assets/72485319/327049ad-dc69-4d56-904d-e40d40949338)
 
 - 模試の成績の記録機能
-![模試の成績記録](https://github.com/Yolog6101/Jyukeseka/assets/72485319/515c0ecc-f3a5-4a0f-9e75-f4df9deee147)
+![模試の成績記録](https://github.com/Yolog6101/Jyukeseka/assets/72485319/03457c6a-d003-42f7-9f66-9240ca9ff0c2)
 
 - 健康記録のグラフ化機能
-![健康記録](https://github.com/Yolog6101/Jyukeseka/assets/72485319/fc21ef4c-2561-4793-8e45-1db7ea74522e)
+![健康記録](https://github.com/Yolog6101/Jyukeseka/assets/72485319/64ecb9df-0dc6-43f6-8c85-6f4a1806abc6)
 
 - SNS等への共有機能
-![共有機能](https://github.com/Yolog6101/Jyukeseka/assets/72485319/ea6ff64a-7d93-407d-865a-57add75a6c63)
+![共有機能](https://github.com/Yolog6101/Jyukeseka/assets/72485319/775d7961-c8c2-48f0-beea-402fe75789de)
 
 - ポップアップ機能
-![ポップアップ](https://github.com/Yolog6101/Jyukeseka/assets/72485319/309ec934-27af-40f8-8085-25cd58fdf2dc)
+![ポップアップ](https://github.com/Yolog6101/Jyukeseka/assets/72485319/279090ec-5e96-4f09-947e-986baa1c5f88)
 
 ## アピールポイント
 　このアプリケーションでは勉強時間や模試の記録のほかに、受験生がおろそかにしがちな睡眠や運動などを記録して生活管理も行うことができるようにしています。また、各教科では永続的な目標だけでなく、その日の目標を別に設けることを可能にすることで、
